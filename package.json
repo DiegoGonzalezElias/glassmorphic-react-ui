@@ -1,0 +1,16 @@
+{
+  "name": "glassmorphic-react-ui",
+  "version": "1.0.0",
+  "description": "ui components library for react following glassmorphic style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DuneDev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "react": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+}
