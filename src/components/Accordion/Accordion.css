@@ -1,0 +1,64 @@
+.panel{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+.panel-heading {
+    display: flex;
+    transition: background 0.3s ease-in-out;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border: 0;
+  }
+
+  .panel-heading:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .panel-title > a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration: none;
+  }
+
+  .panel-title > a:hover {
+    color: #fff;
+  }
+  
+  .panel-collapse {
+    display: flex;
+    padding: 0px 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s;
+    background-color: rgba(255, 255, 255, 0.2)
+  }
+  
+  .panel-collapse.in {
+    max-height: 10rem;
+    background-color: rgba(255, 255, 255, 0.2)
+  }
+
+  .icon {
+    padding: 20px;
+    font-size: 20px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .icon.open {
+    transform: rotate(-45deg); 
+  }
+  
